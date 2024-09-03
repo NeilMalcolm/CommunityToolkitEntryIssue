@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mkt:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+           xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           xmlns:mkt="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+           x:Class="CommunityToolkitEntryIssue.Popups.SecondPopup">
+    <Label Text="Second Popup"
+           HeightRequest="650"
+           WidthRequest="350"
+           VerticalTextAlignment="Center"
+           HorizontalTextAlignment="Center"/>
+</mkt:Popup>
