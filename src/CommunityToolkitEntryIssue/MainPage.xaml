@@ -9,8 +9,11 @@
         <VerticalStackLayout
             Padding="30,0"
             Spacing="25">
-            <Button Text="Show Popup"
-                    Command="{Binding ShowPopupCommand}"/>
+            <Button Text="Show Issue 1 Popup"
+                    Command="{Binding ShowIssue1PopupCommand}"/>
+            
+            <Button Text="Show Issue 2 Popup"
+                    Command="{Binding ShowIssue2PopupCommand}"/>
         </VerticalStackLayout>
     </ScrollView>
 

@@ -10,12 +10,27 @@ namespace CommunityToolkitEntryIssue;
 public partial class MainViewModel : ObservableObject
 {
     [RelayCommand]
-    private void ShowPopup()
+    private void ShowIssue1Popup()
     {
         // Show our popup
-        App.Current.MainPage.ShowPopup(new TestPopup()
+        ShowPopup(new TestPopup()
         {
             BindingContext = new TestPopupViewModel()
         });
+    }
+    
+    [RelayCommand]
+    private void ShowIssue2Popup()
+    {
+        // Show our popup
+        ShowPopup(new TestPopup2()
+        {
+            BindingContext = new TestPopup2ViewModel()
+        });
+    }
+
+    private void ShowPopup(Popup popupToShow)
+    {
+        App.Current.MainPage.ShowPopup(popupToShow);
     }
 }

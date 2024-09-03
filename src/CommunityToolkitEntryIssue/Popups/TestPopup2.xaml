@@ -4,14 +4,15 @@
              xmlns:mkt="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
              xmlns:local="using:CommunityToolkitEntryIssue.Popups"
              x:DataType="local:TestPopupViewModel"
-             x:Class="CommunityToolkitEntryIssue.Popups.TestPopup"
-             Color="White">
+             x:Class="CommunityToolkitEntryIssue.Popups.TestPopup2"
+             Color="Transparent">
     <Grid RowDefinitions="55, 1, Auto, 1, Auto, 1, Auto"
           ColumnDefinitions="*,*"
+          BackgroundColor="White"
           ColumnSpacing="20"
           RowSpacing="0"
           WidthRequest="500">
-        <Label Text="Issue 1 Popup"
+        <Label Text="Issue 2 Popup"
                FontSize="18"
                BackgroundColor="Silver"
                FontAttributes="Bold"

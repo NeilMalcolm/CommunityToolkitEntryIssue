@@ -68,11 +68,18 @@
       <MauiXaml Update="Popup\TestPopup.xaml">
         <SubType>Designer</SubType>
       </MauiXaml>
+      <MauiXaml Update="Popups\TestPopup2.xaml">
+        <SubType>Designer</SubType>
+      </MauiXaml>
     </ItemGroup>
 
     <ItemGroup>
       <Compile Update="Popup\TestPopup.xaml.cs">
         <DependentUpon>TestPopup.xaml</DependentUpon>
+        <SubType>Code</SubType>
+      </Compile>
+      <Compile Update="Popups\TestPopup2.xaml.cs">
+        <DependentUpon>TestPopup2.xaml</DependentUpon>
         <SubType>Code</SubType>
       </Compile>
     </ItemGroup>
